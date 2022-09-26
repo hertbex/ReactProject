@@ -1,6 +1,15 @@
 import './Spa.css'
+import {Link, Route, Routes} from "react-router-dom";
+import Dog from "../Dog/Dog";
+import Cat from "../Cat/Cat";
+import Bird from "../Bird/Bird";
+import NotFound from "../NotFound/NotFound";
+import SpaMP from "../SpaMP/SpaMP";
+import React from "react";
+
 export default function Spa(){
     return(
+        <>
         <div className={"Spa"}>
             <div className={"Left"}>
                 <h2>2.SPA и React Router</h2>
@@ -12,6 +21,22 @@ export default function Spa(){
                     меняется нужный нам компонент. Это происходит быстрее обычных HTML-ссылок.
                 </p>
             </div>
+            <div className={"Right Spa-right"}>
+                <Link to={'/SpaMP'}>Главная</Link>
+                <Link to={'/dog'}>Собака</Link>
+                <Link to={'/cat'}>Кот</Link>
+                <Link to={'/bird'}>Птичка</Link>
+            </div>
+            <Routes>
+                <Route path="/Spa" element={<Spa/>}/>
+                <Route path="/SpaMP" element={<SpaMP/>}/>
+                <Route path="/dog" element={<Dog/>}/>
+                <Route path="/cat" element={<Cat/>}/>
+                <Route path="/bird" element={<Bird/>}/>
+                <Route path="*" element={<NotFound/>}/>
+            </Routes>
         </div>
+
+        </>
     )
 }
