@@ -1,6 +1,6 @@
 import './Whyreact.css'
 import Why from '../../images/why.png'
-
+import React from 'react';
 export default function Whyreact() {
     return (
         <div className={"Whyreact"}>

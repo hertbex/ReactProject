@@ -1,6 +1,6 @@
 import './About.css';
 import logo from '../../images/reactlogo.png'
-
+import React from 'react';
 export default function About() {
     return (
         <div className={"About"}>

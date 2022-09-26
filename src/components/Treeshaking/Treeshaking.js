@@ -4,6 +4,7 @@ import jsfile from './images/jsfile.png'
 import css from './images/css.png'
 import folder2 from './images/folder2.png'
 import advantages from './images/advantages.png'
+import React from 'react';
 export default function (){
     return(
         <div className={"Treeshaking"}>

@@ -2,6 +2,7 @@ import './Analogs.css'
 import Angular from '../../images/angularlogo.png'
 import Vue from '../../images/vuelogo.png'
 import Svelte from '../../images/sveltelogo.png'
+import React from 'react';
 export default function Analogs(){
     return(
         <div className={"Analogs"}>
