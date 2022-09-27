@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/ReactProject/static/css/main.cc4447e3.css",
-    "main.js": "/ReactProject/static/js/main.927e0547.js",
+    "main.css": "/ReactProject/static/css/main.fbb851a9.css",
+    "main.js": "/ReactProject/static/js/main.5d23a7d5.js",
     "static/js/787.28cb0dcd.chunk.js": "/ReactProject/static/js/787.28cb0dcd.chunk.js",
     "static/media/bird.jpg": "/ReactProject/static/media/bird.a792179e8ad4a811fe73.jpg",
     "static/media/cat.jpg": "/ReactProject/static/media/cat.ca0f54976c73579534e2.jpg",
     "static/media/dog.jpg": "/ReactProject/static/media/dog.31a6c3778b7eb67b8ee2.jpg",
+    "static/media/rendering.gif": "/ReactProject/static/media/rendering.bf29b5f42328f14beec6.gif",
     "static/media/jsfile.png": "/ReactProject/static/media/jsfile.51f84fd5664ae7f4157e.png",
     "static/media/advantages.png": "/ReactProject/static/media/advantages.703287637df1ebbd1bcf.png",
+    "static/media/root.png": "/ReactProject/static/media/root.5fa9c9753ec46bcb2ede.png",
     "static/media/folder2.png": "/ReactProject/static/media/folder2.14fa22b6b34e2de1ec82.png",
     "static/media/folder.png": "/ReactProject/static/media/folder.98c75f9f4f0c08c4d115.png",
     "index.html": "/ReactProject/index.html",
-    "main.cc4447e3.css.map": "/ReactProject/static/css/main.cc4447e3.css.map",
-    "main.927e0547.js.map": "/ReactProject/static/js/main.927e0547.js.map",
+    "main.fbb851a9.css.map": "/ReactProject/static/css/main.fbb851a9.css.map",
+    "main.5d23a7d5.js.map": "/ReactProject/static/js/main.5d23a7d5.js.map",
     "787.28cb0dcd.chunk.js.map": "/ReactProject/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc4447e3.css",
-    "static/js/main.927e0547.js"
+    "static/css/main.fbb851a9.css",
+    "static/js/main.5d23a7d5.js"
   ]
 }
