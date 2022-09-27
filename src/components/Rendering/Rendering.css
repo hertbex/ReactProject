@@ -1,0 +1,16 @@
+.Rendering{
+    border-bottom: silver 5px solid;
+    margin: 20px 0 20px;
+    display: flex;
+}
+.Rendering img:nth-child(1){
+
+}
+.Rendering img{
+    height: 300px;
+}
+.Rendering-right{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}

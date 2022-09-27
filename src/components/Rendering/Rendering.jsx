@@ -1,4 +1,6 @@
 import './Rendering.css'
+import gif from '../../images/rendering.gif'
+import root from '../../images/root.png'
 export default function Rendering(){
     return(
         <div className={"Rendering"}>
@@ -14,8 +16,9 @@ export default function Rendering(){
                     и вносит в DOM только минимально необходимые изменения.
                     Именно это позволяет обновлять только некоторые элементы, как было показано в прошлом разделе.</p>
             </div>
-            <div className={"Right"}>
-
+            <div className={"Right Rendering-right"}>
+                <img src={root}/>
+                <img src={gif}/>
             </div>
         </div>
     )
