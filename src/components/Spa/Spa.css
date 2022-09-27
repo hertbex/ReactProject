@@ -9,11 +9,21 @@
     font-size: 25px;
     color: white;
 }
-.Spa-right{
+.Link-menu{
     background-color: #474946;
     padding: 20px;
     color: white;
     border-radius: 15px;
-    height: 180px;
     line-height: 1.8;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+.Spa-right{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+.Spa-right-flex{
+    display: flex;
+    align-content: center;
 }

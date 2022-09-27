@@ -1,0 +1,14 @@
+.Choose-link{
+    width: 400px;
+    height: 225px;
+    text-align: center;
+    vertical-align: center;
+    background-color: #474946;
+    color: white;
+    font-size: 23px;
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

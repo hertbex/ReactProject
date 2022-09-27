@@ -21,20 +21,22 @@ export default function Spa(){
                     меняется нужный нам компонент. Это происходит быстрее обычных HTML-ссылок.
                 </p>
             </div>
-            <div className={"Right Spa-right"}>
-                <Link to={'/SpaMP'}>Главная</Link>
-                <Link to={'/dog'}>Собака</Link>
-                <Link to={'/cat'}>Кот</Link>
-                <Link to={'/bird'}>Птичка</Link>
+            <div className={"Right Spa-right-flex"}>
+                <div className={"Link-menu Spa-right"}>
+                    <Link to={'/SpaMP'}>Главная</Link>
+                    <Link to={'/dog'}>Собака</Link>
+                    <Link to={'/cat'}>Кот</Link>
+                    <Link to={'/bird'}>Птичка</Link>
+                </div>
+                <Routes>
+                    <Route path="/Spa" element={<Spa/>}/>
+                    <Route path="/SpaMP" element={<SpaMP/>}/>
+                    <Route path="/dog" element={<Dog/>}/>
+                    <Route path="/cat" element={<Cat/>}/>
+                    <Route path="/bird" element={<Bird/>}/>
+                    <Route path="*" element={<NotFound/>}/>
+                </Routes>
             </div>
-            <Routes>
-                <Route path="/Spa" element={<Spa/>}/>
-                <Route path="/SpaMP" element={<SpaMP/>}/>
-                <Route path="/dog" element={<Dog/>}/>
-                <Route path="/cat" element={<Cat/>}/>
-                <Route path="/bird" element={<Bird/>}/>
-                <Route path="*" element={<NotFound/>}/>
-            </Routes>
         </div>
 
         </>
