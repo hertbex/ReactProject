@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-
+import './Clock.css'
 export default function Clock(){
     const [text,setText]=useState('')
     const [timer,setTimer]=useState(null)
@@ -11,7 +11,7 @@ export default function Clock(){
         }
     },[])
     return (
-        <div>
+        <div className={"clock"}>
             {text}
         </div>
     );
