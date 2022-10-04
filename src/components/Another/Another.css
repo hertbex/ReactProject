@@ -1,0 +1,11 @@
+.Another{
+    display: flex;
+}
+.Another-left{
+    width: 50%;
+    margin: 20px;
+}
+.Another-right{
+    width: 50%;
+    margin: 20px;
+}
